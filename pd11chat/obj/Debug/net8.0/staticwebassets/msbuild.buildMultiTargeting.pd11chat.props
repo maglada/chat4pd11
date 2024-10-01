@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/pd11chat.props" />
+</Project>
