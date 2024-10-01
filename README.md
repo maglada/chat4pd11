@@ -37,7 +37,3 @@
 
     Serilog
     Application Insights
-
-CI/CD:
-
-    GitHub Actions
