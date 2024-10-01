@@ -31,3 +31,5 @@
 /home/maglada/Документи/mygitrepos/chat4pd11/pd11chat/obj/Debug/net8.0/pd11chat.pdb
 /home/maglada/Документи/mygitrepos/chat4pd11/pd11chat/obj/Debug/net8.0/pd11chat.genruntimeconfig.cache
 /home/maglada/Документи/mygitrepos/chat4pd11/pd11chat/obj/Debug/net8.0/ref/pd11chat.dll
+/home/maglada/Документи/mygitrepos/chat4pd11/pd11chat/bin/Debug/net8.0/pd11chat.staticwebassets.runtime.json
+/home/maglada/Документи/mygitrepos/chat4pd11/pd11chat/obj/Debug/net8.0/pd11chat.sourcelink.json

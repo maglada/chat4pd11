@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+</head>
+<body>
+    <h1>Welcome to the Chat App</h1>
+    <input type="text" id="username" placeholder="Enter your username" />
+    <input type="text" id="message" placeholder="Enter your message" />
+    <button onclick="sendMessage()">Send</button>
+
+    <div id="chat"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.18/signalr.min.js"></script>
+    <script>
+        // Connect to SignalR hub
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chathub") // Ensure this URL matches your hub endpoint
+            .build();
+
+        connection.on("ReceiveMessage", (user, message) => {
+            const chat = document.getElementById("chat");
+            const newMessage = document.createElement("div");
+            newMessage.textContent = `${user}: ${message}`;
+            chat.appendChild(newMessage);
+        });
+
+        connection.start().catch(err => console.error(err.toString()));
+
+        function sendMessage() {
+            const username = document.getElementById("username").value;
+            const message = document.getElementById("message").value;
+            connection.invoke("SendMessage", username, message).catch(err => console.error(err.toString()));
+        }
+    </script>
+</body>
+</html>
+
