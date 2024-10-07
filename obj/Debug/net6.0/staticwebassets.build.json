@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "9+wExrqHEzi6pykubLDG5QdS5T6iwELeJBgyoG/5aFA=",
+  "Source": "chat4pd11",
+  "BasePath": "_content/chat4pd11",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "chat4pd11/wwwroot",
+      "Source": "chat4pd11",
+      "ContentRoot": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/",
+      "BasePath": "_content/chat4pd11",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/css/styles.css",
+      "SourceId": "chat4pd11",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/",
+      "BasePath": "_content/chat4pd11",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/index.html",
+      "SourceId": "chat4pd11",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/",
+      "BasePath": "_content/chat4pd11",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/js/app.js",
+      "SourceId": "chat4pd11",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/maglada/Документи/mygitrepos/chat4pd11/wwwroot/",
+      "BasePath": "_content/chat4pd11",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/app.js"
+    }
+  ]
+}

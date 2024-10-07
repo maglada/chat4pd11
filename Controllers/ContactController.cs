@@ -1,3 +1,4 @@
+using YourNamespace.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 // Контролер для управління контактами

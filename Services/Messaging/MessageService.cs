@@ -1,4 +1,6 @@
 // Сервіс для обробки повідомлень
+using System.Collections.Generic;
+
 public class MessageService : IMessageService
 {
     public void SendMessage(Message message)

@@ -1,4 +1,6 @@
 // Сервіс для управління контактами
+using System.Collections.Generic;
+
 public class ContactService : IContactService
 {
     public void AddContact(Contact contact)

@@ -1,4 +1,6 @@
 // Інтерфейс для роботи з контактами
+using System.Collections.Generic;
+
 public interface IContactRepository
 {
     void AddContact(Contact contact); // Метод для додавання контакту

@@ -1,4 +1,6 @@
 // Клас для валідації файлів
+using Microsoft.AspNetCore.Http;
+
 public static class FileValidator
 {
     // Метод для перевірки валідності файлу
