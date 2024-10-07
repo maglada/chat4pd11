@@ -1,0 +1,27 @@
+/* Основні стилі для чату */
+
+body {
+    font-family: Arial, sans-serif; /* Шрифт для тіла */
+    background-color: #f4f4f4; /* Колір фону */
+    margin: 0; /* Видалення відступів */
+    padding: 0; /* Видалення внутрішніх відступів */
+}
+
+.chat-container {
+    width: 600px; /* Ширина контейнера чату */
+    margin: 50px auto; /* Центрування */
+    background: white; /* Білий фон */
+    border-radius: 5px; /* Закруглені кути */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
+    padding: 20px; /* Внутрішні відступи */
+}
+
+.message {
+    padding: 10px; /* Внутрішні відступи для повідомлень */
+    border-bottom: 1px solid #ccc; /* Нижня границя для повідомлень */
+}
+
+.message:last-child {
+    border-bottom: none; /* Видалення границі для останнього повідомлення */
+}
+

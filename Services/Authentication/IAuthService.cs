@@ -1,8 +1,7 @@
-using chat4pd11.Models.DTOs;
-
+// Інтерфейс для сервісу аутентифікації
 public interface IAuthService
 {
-    Task<AuthResult> RegisterAsync(UserRegistrationDto registrationDto);
-    Task<AuthResult> LoginAsync(UserLoginDto loginDto);
+    string Login(string username, string password); // Метод для входу
+    void Register(string username, string password); // Метод для реєстрації
 }
 

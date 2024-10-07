@@ -1,30 +1,27 @@
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
 
+// Проміжне програмне забезпечення для обробки винятків
 public class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
-    private readonly ILogger _logger;
 
-    public ExceptionHandlingMiddleware(RequestDelegate next, ILogger<ExceptionHandlingMiddleware> logger)
+    public ExceptionHandlingMiddleware(RequestDelegate next)
     {
-        _next = next;
-        _logger = logger;
+        _next = next; // Ініціалізація делегата
     }
 
-    public async Task Invoke(HttpContext context)
+    public async Task InvokeAsync(HttpContext context)
     {
         try
         {
-            await _next(context);
+            await _next(context); // Продовжуємо обробку запиту
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Виникла невідома помилка.");
-            context.Response.StatusCode = 500;
-            await context.Response.WriteAsync("Внутрішня помилка сервера.");
+            // Логіка для обробки винятків
+            context.Response.StatusCode = StatusCodes.Status500InternalServerError; // Встановлюємо статус 500
+            await context.Response.WriteAsync("Виникла помилка."); // Повертаємо повідомлення про помилку
         }
     }
 }
-

@@ -1,9 +1,8 @@
+// Сутність для користувачів
 public class User
 {
-    public int Id { get; set; }
-    public string Username { get; set; }
-    public string Email { get; set; }
-    public string PasswordHash { get; set; }
-    public UserStatus Status { get; set; }
+    public int Id { get; set; } // ID користувача
+    public string Username { get; set; } // Ім'я користувача
+    public string PasswordHash { get; set; } // Хеш пароля
 }
 
