@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chat4pd11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16a66f3e7f111715e33a23b35c0a27ba1b6cbf1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bb0a00cf86633b88792d36953dd2287ba639cee")]
 [assembly: System.Reflection.AssemblyProductAttribute("chat4pd11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chat4pd11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
